@@ -25,11 +25,10 @@ int main(){
     cout<<"enter decimal number:";
     cin>>decNum;
 
-    for(int i=1;i<=decNum;i++){
-        cout<<"binary number of "<<i<<" is: ";
+     for(int i=1;i<=decNum;i++){
+         cout<<"binary number of "<<i<<" is: ";
         decToBinary(i);
         cout<<endl;
-    }
-
+     }
     return 0;
 }
