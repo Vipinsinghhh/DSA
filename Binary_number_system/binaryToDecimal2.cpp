@@ -16,7 +16,6 @@ int binaryToDecimal(int binNum){
     }
     return ans;
 }
-
 int main(){
     int binNum;
     cout<<"Enter Binary Number:";
