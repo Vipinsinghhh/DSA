@@ -1,3 +1,5 @@
+//find the smallest value in array
+
 #include <bits/stdc++.h>
 using namespace std;
 
