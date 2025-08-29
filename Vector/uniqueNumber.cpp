@@ -7,7 +7,7 @@
 #include<vector>
 using namespace std;
 
-int singleNumber(vector<int>&nums){
+int uniqueNumber(vector<int>&nums){
     int ans =0;
     for(int val: nums){
         ans = ans ^ val;
@@ -17,7 +17,7 @@ int singleNumber(vector<int>&nums){
 int main(){
     vector<int>nums = {4,1,2,1,2};
 
-    cout<<"unique number in array is: "<<singleNumber(nums);
+    cout<<"unique number in array is: "<<uniqueNumber(nums);
 
     return 0;
 }
