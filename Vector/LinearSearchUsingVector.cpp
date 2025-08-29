@@ -1,4 +1,4 @@
-//searching the target value is present on vector or not
+//searching the target value is present in vector or not using Linear search algorithm
 
 #include<iostream>
 #include<vector>
