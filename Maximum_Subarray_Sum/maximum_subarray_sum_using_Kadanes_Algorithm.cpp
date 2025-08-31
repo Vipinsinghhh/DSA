@@ -1,3 +1,4 @@
+//find maximum subarray sum using kadanes algorithm
 
 #include <bits/stdc++.h>
 #include<vector>
