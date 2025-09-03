@@ -1,4 +1,5 @@
 //Find Majority Element in array using Moore's voting algorithm
+//Most Optimised way
 
 #include<bits/stdc++.h>
 using namespace std;
