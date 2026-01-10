@@ -1,36 +1,35 @@
 #include<iostream>
 using namespace std;
 
-bool search(int arr[], int size, int key) {
+void update(int arr[], int n) {
 
-    for( int i = 0; i<size; i++ ) {
+    cout << endl << "Inside the function" <<endl;
+    
+    //updating array's first element
+    arr[0] = 120;
 
-        if( arr[i] == key) {
-            return 1;
-        }
+    //printing the array
+    for(int i=0; i<3; i++) {
+        cout << arr[i] <<" ";
+    } cout<<endl;
 
-    }
-    return 0;
+
+    cout << "Going back to main function" << endl;
 }
 
 
 int main() {
 
-    int arr[10] = { 5, 7, -2, 10, 22, -2, 0, 5, 22, 1};
+    int arr[3] = {1,2,3};
 
-    cout <<" Enter the element to search for " << endl; 
-    int key;
-    cin >> key;
+    update(arr, 3);
 
-    bool found = search(arr, 10, key);
-
-    if( found ) {
-        cout <<" Key is present "<< endl;
+    //printing the array
+    cout<< endl << "Printing in main function" << endl;
+    for(int i=0; i<3; i++) {
+        cout << arr[i] <<" ";
     }
-    else{
-        cout <<" Key is absent " << endl;
-    }
-
+    cout << endl;
 
     return 0;
 }
