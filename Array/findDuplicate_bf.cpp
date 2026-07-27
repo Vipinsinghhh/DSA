@@ -1,7 +1,6 @@
 //find duplicate elements in array
-//brute force
 // CodeStudio - [https://bit.ly/3dm6bdZ]
-
+//brute force
 #include<iostream>
 using namespace std;
 
